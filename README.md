@@ -36,8 +36,8 @@ Siga as instruções abaixo para executar o projeto em seu ambiente de desenvolv
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone <URL_DO_SEU_REPOSITORIO>
-    cd <NOME_DA_PASTA_DO_PROJETO>
+    git clone https://github.com/renanbmello/my-tasks
+    cd my-tasks
     ```
 
 2.  **Instale as Dependências:**
