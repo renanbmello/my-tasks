@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* 
+  The following CSS variables and body styles were overriding Tailwind's darkMode: 'class' strategy.
+  Tailwind utility classes (e.g., bg-gray-50 dark:bg-gray-900) on the body or html element 
+  will now control the background and text colors for light/dark mode.
+*/
+
+/*
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif; 
+}
+*/
+
+/* You can keep global styles here that DON'T conflict with Tailwind's utility-driven approach for theming */
+
+/* Example: If you still want to use CSS variables for fonts with Tailwind, you could have:
+:root {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+But ensure your Tailwind config uses these, e.g., theme: { extend: { fontFamily: { sans: ['var(--font-sans)', ...defaultTheme.fontFamily.sans] } } }
+And your body tag in layout.tsx uses className="font-sans"
+*/
